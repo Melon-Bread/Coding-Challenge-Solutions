@@ -1,5 +1,5 @@
 # Coding Challenge Solutions
-A log of solutions I have submitted to various programming exercises. 
+A log of solutions I have submitted for various programming exercises. 
 
 ## Languages Used
 - [Java](https://www.java.com/)

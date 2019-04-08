@@ -1,3 +1,6 @@
 
 .directory
-/.idea/
+*.iml
+.exercism/
+.idea/
+out/

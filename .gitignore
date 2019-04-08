@@ -2,5 +2,6 @@
 .directory
 *.iml
 .exercism/
+.gradle/
 .idea/
 out/

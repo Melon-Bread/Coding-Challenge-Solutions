@@ -1,6 +1,3 @@
-// [2018-06-18] Challenge #364 [Easy] Create a Dice Roller
-// https://www.reddit.com/r/dailyprogrammer/comments/8s0cy1/20180618_challenge_364_easy_create_a_dice_roller/
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -9,12 +6,12 @@ public class DiceRoll {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        String diceRoll;
-        int diceCount, diceSides, diceTotal;
+        String diceRoll = "";
+        int diceCount = 0, diceSides = 0, diceTotal =0;
 
         while (diceRoll != "exit") {
-            String beforeD, afterD;
-            int locationD;
+            String beforeD = "", afterD = "";
+            int locationD = 0;
 
             System.out.println("Enter your dice roll:");
             diceRoll = scanner.next();
@@ -28,7 +25,7 @@ public class DiceRoll {
             for (int i = 0; i < diceRoll.length(); i++) {
                 char c = diceRoll.charAt(i);
 
-                if (c != 'd' || c != 'D') {
+                if (c != 'd' && c != 'D') {
                     if (i < locationD)
                         beforeD += c;
                     else if (i > locationD)

@@ -19,7 +19,7 @@ class Hamming {
     int getHammingDistance() {
       int differences = 0;
       
-      for (int i=1; i < leftStrand.length(); i++)
+      for (int i = 0; i < leftStrand.length(); i++)
         if (leftStrand.charAt(i) != rightStrand.charAt(i))
           differences++;
   

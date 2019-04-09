@@ -4,4 +4,5 @@
 .exercism/
 .gradle/
 .idea/
+build/
 out/
